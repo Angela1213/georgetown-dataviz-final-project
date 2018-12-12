@@ -84,12 +84,12 @@ h2.subhead {
 }
 
 
-#chart-2.chart img, #chart-1.chart img {
+#chart-2.chart img, #chart-1.chart img, #chart-4.chart img {
   width: auto;
   max-width: 900px;
 }
 
 
-#chart-3.chart img, #chart-4.chart img {
+#chart-3.chart img {
   max-width: 600px;
 }
