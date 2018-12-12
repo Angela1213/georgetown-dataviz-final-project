@@ -8,7 +8,7 @@ html, body {
   margin: 30px auto 20px auto;
   font-family: Helvetica, Arial, Sans-Serif;
   color: #222;
-  font-size: 48px;
+  font-size: 46px;
 
 }
 
@@ -18,10 +18,15 @@ html, body {
   color: #222;
   font-size: 24px;
   font-family: Helvetica, Arial, Sans-Serif;
+  position: relative;
+  z-index: 200;
+
 }
 
 h2.subhead {
   margin-top: 40px;
+  border-left: 20px solid red;
+  padding-left: 5px;
 }
 
 .story-body  .byline {
@@ -66,11 +71,25 @@ h2.subhead {
   font-family: Helvetica, Arial, Sans-Serif;
 }
 
+.chart {
+  z-index: -1;
+}
+
 .chart img {
   width: auto;
-  max-width: 900px;
   height: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+
+#chart-2.chart img, #chart-1.chart img {
+  width: auto;
+  max-width: 900px;
+}
+
+
+#chart-3.chart img, #chart-4.chart img {
+  max-width: 600px;
 }
